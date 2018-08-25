@@ -6,7 +6,7 @@ html {
 
 body{
     /*MOBILE-FIRST SIZING BACKGROUND */
-    background: url("images/keys.jpg") center top no-repeat;
+    background: white url("images/keys.jpg") center top no-repeat fixed;
     background-size: 300%;
 }
 
