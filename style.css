@@ -1,0 +1,26 @@
+html {
+    /* POSITION/SIZE FOR FIXED FOOTER */
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    /*MOBILE-FIRST SIZING BACKGROUND */
+    background: url("images/keys.jpg") center top no-repeat;
+    background-size: 300%;
+}
+
+
+/* TABLET RESPONSIVE BACKGROUND SIZING  */
+@media only screen and (min-width: 768px){
+    body{
+        background-size: 200%;
+    }
+}
+
+/* DESKTOP RESPONSIVE BACKGROUND SIZING */
+@media only screen and (min-width: 992px){
+    body{
+        background-size: 100%;
+    }
+}
