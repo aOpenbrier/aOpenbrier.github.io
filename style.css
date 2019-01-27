@@ -10,6 +10,10 @@ body{
     background-size: 300%;
 }
 
+.card {
+    box-shadow: 0 0 2px white,
+                2px 3px 1px rgba(0, 0, 0, .4);
+}
 
 /* TABLET RESPONSIVE BACKGROUND SIZING  */
 @media only screen and (min-width: 768px){
