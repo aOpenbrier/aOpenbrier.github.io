@@ -1,0 +1,5 @@
+# Testing pages
+User-agent: *
+Disallow: /munchbistro/
+
+Sitemap: https://aopenbrier.github.io/sitemap.txt
