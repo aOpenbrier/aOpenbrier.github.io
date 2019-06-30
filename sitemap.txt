@@ -1,7 +1,7 @@
-https://aopenbrier.github.io/index.html
-https://aopenbrier.github.io/portfolio.html
-https://aopenbrier.github.io/react-memory-game/
-https://aopenbrier.github.io/GIF-Search/
-https://aopenbrier.github.io/TriviaGame/
-https://aopenbrier.github.io/unit-4-game/
-https://aopenbrier.github.io/Word-Guess-Game/
+https://www.adamopenbrier.com/index.html
+https://www.adamopenbrier.com/portfolio.html
+https://www.adamopenbrier.com/react-memory-game/
+https://www.adamopenbrier.com/GIF-Search/
+https://www.adamopenbrier.com/TriviaGame/
+https://www.adamopenbrier.com/unit-4-game/
+https://www.adamopenbrier.com/Word-Guess-Game/
