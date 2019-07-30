@@ -1,4 +1,4 @@
-https://www.adamopenbrier.com/index.html
+https://www.adamopenbrier.com/
 https://www.adamopenbrier.com/portfolio.html
 https://www.adamopenbrier.com/react-memory-game/
 https://www.adamopenbrier.com/GIF-Search/
