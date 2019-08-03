@@ -1,5 +1,1 @@
-# Testing pages
-User-agent: *
-Disallow: /munchbistro/
-
 Sitemap: https://www.adamopenbrier.com/sitemap.txt
