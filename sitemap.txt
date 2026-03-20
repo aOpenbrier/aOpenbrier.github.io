@@ -1,7 +1,1 @@
 https://www.adamopenbrier.com/
-https://www.adamopenbrier.com/portfolio.html
-https://www.adamopenbrier.com/react-memory-game/
-https://www.adamopenbrier.com/GIF-Search/
-https://www.adamopenbrier.com/TriviaGame/
-https://www.adamopenbrier.com/unit-4-game/
-https://www.adamopenbrier.com/Word-Guess-Game/

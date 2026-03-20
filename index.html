@@ -5,39 +5,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="ArPx8SBU8-VAkOG-rgtYnEdCZKLu0KpxeaUulzx9ZbY">
-    <meta name="description" content="Adam Openbrier Web Developer profile. Graduate of The Coding Boot Camp at University of California Irvine and Developer of MERN Stack applications.">
+    <meta name="description" content="Adam Openbrier – Developer specializing in high-performance email development, Google Workspace productivity tools, and event registration management.">
     <meta property="og:url" content="https://www.adamopenbrier.com/">
-    <meta property="og:title" content="Adam Openbrier">
-    <meta property="og:description" content="Full Stack Web Developer Profile. Graduate of The Coding Boot Camp at University of California Irvine with emphasis in MERN Stack applications">
+    <meta property="og:title" content="Adam Openbrier | Web & Email Developer">
+    <meta property="og:description" content="Developer specializing in high-performance email development, Google Workspace productivity tools, and event registration management.">
     <meta property="og:image" content="https://www.adamopenbrier.com/images/og-index.jpg">
     <link rel="canonical" href="https://www.adamopenbrier.com">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
     <title>Adam Openbrier</title>
+    <style>
+        /* Tree-shaken Bootstrap 5.3 Subset */
+        :root {
+            --bs-blue: #0d6efd; --bs-info: #0dcaf0; --bs-light: #f8f9fa; --bs-white: #fff;
+            --bs-body-font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+            --bs-body-font-size: 1rem; --bs-body-font-weight: 400; --bs-body-line-height: 1.5;
+            --bs-body-color: #212529; --bs-body-bg: #fff;
+            --bs-border-radius: 0.375rem;
+            --bs-navbar-padding-x: 0;
+            --bs-navbar-padding-y: 0.5rem;
+            --bs-navbar-brand-padding-y: 0.3125rem;
+            --bs-navbar-brand-margin-end: 1rem;
+            --bs-navbar-brand-font-size: 1.25rem;
+            --bs-navbar-toggler-padding-y: 0.25rem;
+            --bs-navbar-toggler-padding-x: 0.75rem;
+            --bs-navbar-toggler-font-size: 1.25rem;
+            --bs-navbar-toggler-border-radius: 0.375rem;
+            --bs-navbar-nav-link-padding-x: 0.5rem;
+        }
+
+        *, ::after, ::before { box-sizing: border-box; }
+        body { margin: 0; font-family: var(--bs-body-font-family); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight); line-height: var(--bs-body-line-height); color: var(--bs-body-color); background-color: var(--bs-body-bg); }
+        h1, h2 { margin-top: 0; margin-bottom: 0.5rem; font-weight: 500; line-height: 1.2; color: inherit; }
+        p { margin-top: 0; margin-bottom: 1rem; }
+        a { color: var(--bs-blue); text-decoration: underline; }
+        a:hover { color: #0a58ca; }
+
+        /* Typography */
+        .h2 { font-size: calc(1.325rem + 0.9vw); }
+        .h6 { font-size: 1rem; }
+        .text-center { text-align: center !important; }
+        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+
+        /* Grid System */
+        .container { width: 100%; padding-right: 0.75rem; padding-left: 0.75rem; margin-right: auto; margin-left: auto; }
+        @media (min-width: 576px) { .container { max-width: 540px; } }
+        @media (min-width: 768px) { .container { max-width: 720px; } }
+        @media (min-width: 992px) { .container { max-width: 960px; } }
+        @media (min-width: 1200px) { .container { max-width: 1140px; } }
+
+        .row { display: flex; flex-wrap: wrap; margin-right: -0.75rem; margin-left: -0.75rem; }
+        .justify-content-center { justify-content: center !important; }
+        .col-12, .col-sm-12, .col-lg-10 { flex-shrink: 0; width: 100%; max-width: 100%; padding-right: 0.75rem; padding-left: 0.75rem; }
+        @media (min-width: 992px) { .col-lg-10 { flex: 0 0 auto; width: 83.33333333%; } }
+
+        /* Navbar & Nav (V5 Logic) */
+        .navbar { position: relative; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x); }
+        .navbar-brand { padding-top: var(--bs-navbar-brand-padding-y); padding-bottom: var(--bs-navbar-brand-padding-y); margin-right: var(--bs-navbar-brand-margin-end); font-size: var(--bs-navbar-brand-font-size); text-decoration: none; white-space: nowrap; color: rgba(0,0,0,0.9); }
+        .navbar-toggler { padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x); font-size: var(--bs-navbar-toggler-font-size); line-height: 1; background-color: transparent; border: 1px solid rgba(0,0,0,0.1); border-radius: var(--bs-navbar-toggler-border-radius); transition: box-shadow 0.15s ease-in-out; cursor: pointer; }
+        .navbar-toggler-icon { display: inline-block; width: 1.5em; height: 1.5em; vertical-align: middle; background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); background-repeat: no-repeat; background-position: center; background-size: 100%; }
+        
+        .collapse:not(.show) { display: none; }
+        .navbar-collapse { flex-basis: 100%; flex-grow: 1; align-items: center; }
+        .navbar-nav { display: flex; flex-direction: column; padding-left: 0; margin-top: 0; margin-bottom: 0; list-style: none; }
+        .nav-link { display: block; padding: 0.5rem var(--bs-navbar-nav-link-padding-x); text-decoration: none; color: rgba(0,0,0,0.55); transition: color 0.15s ease-in-out; }
+        .nav-link:hover { color: rgba(0,0,0,0.7); }
+        .nav-link.active { color: rgba(0,0,0,0.9); }
+
+        @media (min-width: 768px) {
+            .navbar-expand-md { flex-wrap: nowrap; justify-content: flex-start; }
+            .navbar-expand-md .navbar-nav { flex-direction: row; }
+            .navbar-expand-md .navbar-collapse { display: flex !important; flex-basis: auto; }
+            .navbar-expand-md .navbar-toggler { display: none; }
+            .mr-auto { margin-right: auto !important; }
+        }
+
+        .bg-light { background-color: #f8f9fa !important; }
+        .sticky-top { position: sticky; top: 0; z-index: 1020; }
+
+        /* Card / Spacing */
+        .card-body { flex: 1 1 auto; padding: 1rem 1rem; }
+        .mx-0 { margin-right: 0 !important; margin-left: 0 !important; }
+        .px-0 { padding-right: 0 !important; padding-left: 0 !important; }
+        .mx-2 { margin-right: 0.5rem !important; margin-left: 0.5rem !important; }
+        .py-4 { padding-top: 1.5rem !important; padding-bottom: 1.5rem !important; }
+        .ms-3 { margin-left: 1rem !important; }
+
+        /* Buttons (V5 colors) */
+        .btn { --bs-btn-padding-x: 0.75rem; --bs-btn-padding-y: 0.375rem; --bs-btn-font-size: 1rem; --bs-btn-font-weight: 400; --bs-btn-line-height: 1.5; --bs-btn-color: #212529; --bs-btn-bg: transparent; --bs-btn-border-width: 1px; --bs-btn-border-color: transparent; --bs-btn-border-radius: 0.375rem; display: inline-block; padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x); font-family: inherit; font-size: var(--bs-btn-font-size); font-weight: var(--bs-btn-font-weight); line-height: var(--bs-btn-line-height); color: var(--bs-btn-color); text-align: center; text-decoration: none; vertical-align: middle; cursor: pointer; user-select: none; background-color: var(--bs-btn-bg); border: var(--bs-btn-border-width) solid var(--bs-btn-border-color); border-radius: var(--bs-btn-border-radius); transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
+        .btn-info { --bs-btn-color: #000; --bs-btn-bg: #0dcaf0; --bs-btn-border-color: #0dcaf0; --bs-btn-hover-color: #000; --bs-btn-hover-bg: #31d2f2; --bs-btn-hover-border-color: #25cff2; }
+        .btn-info:hover { color: var(--bs-btn-hover-color); background-color: var(--bs-btn-hover-bg); border-color: var(--bs-btn-hover-border-color); }
+    </style>
 </head>
 
 <body>
     <!-- NAV BAR -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div class="px-0 mx-0">
-            <span class='navbar-brand'>Adam Openbrier</span>
+            <span class="navbar-brand ms-3">Adam Openbrier</span>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler me-3" type="button" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" onclick="document.getElementById('navbarText').classList.toggle('show')">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-                <li class='nav-item'>
+            <ul class="navbar-nav mr-auto ms-3">
+                <li class="nav-item">
                     <a class="nav-link active" href="./">About Me
                         <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Portfolio
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./resume_Adam_Openbrier_web_dev.pdf">Résumé
                     </a>
                 </li>
                 <li class="nav-item">
@@ -49,137 +121,34 @@
             </ul>
         </div>
     </nav>
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-lg-10">
-            <div class="mx-2">
-                <div class="card-body">
-                    <h1 class="h3">Adam Openbrier<br><span class="h4">Web Developer</span></h1>
-                    <img class="rounded-circle float-left w-25 mr-4 my-1 mb-4" src="images/profile.jpg" alt="Adam Openbrier">
-                    <p>
-                        I was introduced to coding and graphic editing over 10 years ago and maintained interest in digital design. As a cafe supervisor, I demonstrated my talent in computer logic by developing a tool for supply management. Inventory and shipment data were used to automatically calculate precise replenishment levels, preventing outages or waste.
-                    </p>
-                    <p>
-                        As a student of The Coding Bootcamp at University of California, Irvine, I developed MERN stack web applications, enjoyed challenging assignments, and collaborated with classmates on new concepts.
-                    </p>
-                    <p>
-                        Since graduating, I have continued to focus on coding, building application, and learning. My freelance and contract work has given me extensive frontend experience.
-                    </p>
 
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row py-4 justify-content-center">
-        <div class="col-sm-12 col-lg-10">
-            <div class="card mx-2">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-sm-12 col-lg-8">
-                            <img src="./images/smpt-web.jpg" alt="Santa Monica Physical Therapy desktop website and mobile website screenshots">
-                        </div>
-                        <div class="col-sm-12 col-lg-4 d-flex flex-column justify-content-between pt-3 pt-lg-0">
-                            <h3 class="card-title h5 align-self-center text-center">Santa Monica Physical Therapy</h3>
-                            <p>
-                                Business site with modern design, structured data SEO enhanced, accessible navigation, and high browser compatibility
-                            </p>
-                            <div>
-                                <h3 class="h6">Tools Used:</h3>
-                                <ul>
-                                    <li>Node NPM Scripts</li>
-                                    <li>Babel</li>
-                                    <li>Postcss Autoprefixer</li>
-                                    <li>SCSS</li>
-                                    <li>JSON+LD Structured Data</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3 class="h6">Links:</h3>
-                                <a class="card-link" href="https://github.com/aOpenbrier/SMPT">Code</a>
-                                <a class="card-link" href="https://www.santamonicapt.com">Site</a>
-                            </div>
-                        </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-lg-10">
+                <div class="mx-2">
+                    <div class="card-body">
+                        <h1 class="h2">Adam Openbrier – Developer</h1>
+                        <p>Specializing in web and email development for event and marketing.</p>
+
+                        <h2 class="h6">Email development</h2>
+                        <p>Advanced HTML development and creative support. Developing emails that work in dark mode, mobile, and even Outlook.</p>
+
+                        <h2 class="h6">Productivity</h2>
+                        <p>Internal tools, automations, and operational efficiency. Custom tools Google with Workspace Apps Script</p>
+
+                        <h2 class="h6">Event production and registration management</h2>
+                        <p>Event website and registration platform logistics. Audience data management Campaign tracking, event measurement, and attendance reporting.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row py-4 justify-content-center">
-        <div class="col-sm-12 col-lg-10">
-            <div class="card mx-2">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-sm-12 col-lg-8">
-                            <img class="card-img-top" src="./images/munch-web.jpg" alt="Munch Thai desktop website and mobile website mockup">
-                        </div>
-                        <div class="col-sm-12 col-lg-4 d-flex flex-column justify-content-between pt-3 pt-lg-0">
-                            <h3 class="card-title h5 align-self-center text-center">Munch Thai</h3>
-                            <p>
-                                Restaurant site with mobile-responsive design and custom menu content-management
-                            </p>
-                            <div>
-                                <h3 class="h6">Tools Used:</h3>
-                                <ul>
-                                    <li>Node.js</li>
-                                    <li>Gulp.js build streaming</li>
-                                    <li>Babel</li>
-                                    <li>Postcss Autoprefixer</li>
-                                    <li>SCSS</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3 class="h6">Links:</h3>
-                                <a class="card-link" href="https://github.com/aOpenbrier/munchthai">Code</a>
-                                <a class="card-link" href="https://www.munchthai.com">Site</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+        <div class="row py-4 justify-content-center">
+            <div class="col-12 text-center">
+                <a class="btn btn-info" href="https://docs.google.com/forms/d/e/1FAIpQLScg63S6EOEBwgrcYGm7uNtpHJeQk2sYR6Eu6cmtwH1VRY3hCQ/viewform?usp=sharing&ouid=106413017225920158233">Contact me</a>
             </div>
         </div>
     </div>
-    <div class="row py-4 justify-content-center">
-        <div class="col-sm-12 col-lg-10">
-            <div class="card mx-2">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-sm-12 col-lg-8">
-                            <img class="card-img-top" src="./images/menu-node.jpg" alt="Munch Thai desktop website and mobile website mockup">
-                        </div>
-                        <div class="col-sm-12 col-lg-4 d-flex flex-column justify-content-between pt-3 pt-lg-0">
-                            <h3 class="card-title h5 align-self-center text-center">Munch Thai</h3>
-                            <p>
-                                Desktop Node.js application for menu management and editing JSON data. Web interface with instant preview of changes.
-                            </p>
-                            <div>
-                                <h3 class="h6">Tools Used:</h3>
-                                <ul>
-                                    <li>Node.js</li>
-                                    <li>Express.js server</li>
-                                    <li>Axios http client</li>
-
-                                </ul>
-                            </div>
-                            <div>
-                                <h3 class="h6">Links:</h3>
-                                <a class="card-link" href="https://github.com/aOpenbrier/munchmenu">Code</a>
-                                <a class="card-link" href="https://www.youtube.com/watch?v=KrmT_pZFTAk">Demo Video</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-12 text-center ">
-            <a class="btn btn-info" href="./portfolio.html">More</a>
-        </div>
-    </div>
-
-</div>
-    <script src='https://code.jquery.com/jquery-3.3.1.js' integrity='sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=' crossorigin='anonymous'></script>
-    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js' integrity='sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T' crossorigin='anonymous'></script>
 </body>
 
 </html>
